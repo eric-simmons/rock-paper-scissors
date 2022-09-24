@@ -157,6 +157,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding 0 30px;
+    margin:
+    margin:
 }
 
 h1 {
@@ -174,8 +176,18 @@ h1 {
 .choice {
     cursor: pointer;
     transition: transform 300ms ease-out;
+    text-align: center;
 }
 
 .choice:hover{
     transform: scale(1.3);
+}
+
+.choice img {
+    display: block;
+}
+
+
+.loser {
+    opacity: .5;
 }
