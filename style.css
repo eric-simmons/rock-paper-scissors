@@ -47,11 +47,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
-
-
 :root {
     --black: #000000;
     --dark-grey: #382e60; 
@@ -60,3 +55,29 @@ table {
     --powder-blue: #b8dbd9b3;
     --ghost-white: #F4F4F9;
 }
+
+body {
+    color:  var(--powder-blue);
+    background-color: var(--dark-grey);
+    font-family: 'Nabla', cursive;
+    font-size: 48px;
+}
+
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding 0 30px;
+}
+ h1{
+    font-size: 48;
+
+ }
+ 
+ main{
+    display:flex;
+    justify-content: space-around;
+    margin: 200px auto 0;
+    max-width: 1080;
+ }
